@@ -11,8 +11,8 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
                 .allowedOriginPatterns(
-                        "https://dsmantenimiento.vercel.app",
-                        "https://dsmantenimiento-*.vercel.app"
+                        "https://ds-mantenimiento.vercel.app",
+                        "https://ds-mantenimiento-*.vercel.app"
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
