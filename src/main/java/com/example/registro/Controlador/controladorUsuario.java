@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @CrossOrigin(origins = {
-        "https://ds-mantenimiento.vercel.app",
+        "https://dsmantenimiento.vercel.app/",
 })
 @RestController
 @RequestMapping("api/usuario")
